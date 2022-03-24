@@ -171,4 +171,8 @@ public class ProController {
     public void schdule(){
         System.out.println("11111111");
     }
+    @Scheduled(fixedDelay = 1000)
+    public void schdule1(){
+        System.out.println("11111111");
+    }
 }
