@@ -14,7 +14,6 @@ public class FirstApplication {
     public static void main(String[] args) {
         SpringApplication.run(FirstApplication.class, args);
         System.out.println("启动成功");
-        System.out.println("1111");
         Person person = new Person();
         //person.show();
     }
