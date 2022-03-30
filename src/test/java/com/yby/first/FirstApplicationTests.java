@@ -21,14 +21,14 @@ class FirstApplicationTests {
         
     }
 
-    public FirstApplicationTests(int x, int y){
-        this.x = x;
-        this.y = y;
-    }
-    void move(int x1,int y1){
-        x = x1;
-        y = y1;
-    }
+//    public FirstApplicationTests(int x, int y){
+//        this.x = x;
+//        this.y = y;
+//    }
+//    void move(int x1,int y1){
+//        x = x1;
+//        y = y1;
+//    }
 
 
 
@@ -49,9 +49,12 @@ class FirstApplicationTests {
 //            return;
 //        }
 
-        FirstApplicationTests firstApplicationTests = new FirstApplicationTests(0,0);
-        //firstApplicationTests.move(5,5);
-        System.out.println("x="+ firstApplicationTests.x + "  y=" + firstApplicationTests.y );
+        int x = 5;
+        if (x > 10){
+            System.out.println("1111");
+        }else {
+            assert (x > 6);
+            System.out.println("22222");
+        }
     }
-
 }
