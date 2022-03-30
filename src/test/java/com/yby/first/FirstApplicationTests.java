@@ -55,6 +55,7 @@ class FirstApplicationTests {
         }else {
             assert (x > 6);
             System.out.println("22222");
+            System.out.println("222233");
         }
     }
 }
